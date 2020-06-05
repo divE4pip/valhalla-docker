@@ -1,2 +1,5 @@
-pbf/
 tiles-build/
+polylines/
+*.osm.pbf
+
+.idea/
