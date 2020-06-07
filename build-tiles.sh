@@ -10,5 +10,5 @@ docker run --rm -d \
   --name valhalla-build-tiles \
   -w $CONTAINER_BUILD_DIR \
   -v "$PWD"/tiles-build:$CONTAINER_BUILD_DIR \
-  --mount "type=bind,source=$PWD/$PBF_PATH,target=/pbf/osm.pbf" \
+  --mount "type=bind,source=$PBF_PATH,target=/pbf/osm.pbf" \
   valhalla valhalla_build_tiles -c valhalla.json /pbf/osm.pbf
