@@ -2,11 +2,6 @@
 
 ## North america example
 
-```
-cd {pelias-data-dir}
-git clone git@github.com:divE4pip/valhalla-docker.git
-```
-
 Build docker image:
 ```
 docker build . -t valhalla
